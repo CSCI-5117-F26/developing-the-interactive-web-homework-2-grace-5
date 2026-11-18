@@ -1,0 +1,31 @@
+// Set your brand colors
+$magenta: #e63462;
+$yellow: #fffde8;
+$bright-blue: #5787ff;
+$blue: #53546d;
+$blue-light: #92909a;
+$blue-lighter: #9e9aa9;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"Pangolin", sans-serif',
+  $grey-dark: $blue,
+  $grey-light: $blue-light,
+  $primary: $magenta,
+  $link: $bright-blue,
+  $body-background-color: $yellow,
+  $tabs-boxed-link-active-background-color: $yellow,
+  $control-border-width: 2px,
+  $input-shadow: none,
+
+  $weight-light: 400,
+  $weight-normal: 400,
+  $weight-medium: 400,
+  $weight-semibold: 400,
+  $weight-bold: 400,
+  $weight-extrabold: 400
+
+);
+
+// Import the Google Font
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
